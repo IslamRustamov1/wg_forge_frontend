@@ -1,0 +1,45 @@
+html, body {
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+thead {
+    background: #FFFADE; /* Цвет фона */
+}
+
+
+th {
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+    background: #FBEAFF; /* Цвет фона */
+}
+
+tfoot td {
+    background: #FFFADE;/* Цвет фона */
+}
+
+#currency {
+    text-align: center;
+    padding: 10px;
+}
+
+#search {
+    text-align: center;
+    padding: 10px;
+}
+
+#container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
